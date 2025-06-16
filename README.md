@@ -1,11 +1,13 @@
-# Banking Data Analysis Project
+# Banking Data Analysis with Dashboards and Predictive Modeling
 This project is a comprehensive data analysis of a banking dataset.
 It involves data processing, SQL integration, Python-based cleaning and analysis, and an interactive Power BI dashboard.
-- Banking.csv # Raw dataset
-- banking_cleaned.xlsx                          # Cleaned version of dataset
+- Banking_original.csv                          # Raw dataset
+- banking_processedExcelData.xlsx               # excel processed version of dataset
 - bank_sqlanalysis.sql                          # SQL queries and insights
-- connecting_SQL_python_BankAnalysis.ipynb      # Python notebook for SQL + data analysis
-- PowerBI_Dashboard.pbix                        # Power BI dashboard file
+- connecting_SQL_python_BankAnalysis.ipynb      # Python notebook for data analysis , full EDA & ML model 
+- Bank_Analysis(1).pbix                         # Power BI dashboard file
+- Cleaned_Banking_Dataset.csv                   # Cleaned dataset as csv
+- bank_DataAnalysis_Presentation                # Final slides to summarize all key stages
 - README.md                                     # This file
 # Project Objective
 - Clean and pre-process real-world banking data.
@@ -15,7 +17,7 @@ It involves data processing, SQL integration, Python-based cleaning and analysis
 # Tools and Technologies
 - **Languages**: Python, SQL (MySQL)
 - **Libraries**: Pandas, Seaborn, Matplotlib, PyMySQL
-- **Platforms**: Jupyter Notebook, MySQL Workbench, Power BI
+- **Platforms**: Jupyter Notebook, MySQL Workbench, Power BI, Canva
 - **OS**: Windows
 # Highlights
 - Connected MySQL database to Python via `pymysql`
